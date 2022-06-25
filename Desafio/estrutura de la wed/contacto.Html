@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sr.comic: Contacto</title>
+    <link rel="shortcut icon" href="./img/logos/logo_size 2.jpg">
+    <link rel="stylesheet" href="./CSS/Estilos.Css">
+</head>
+<body class="contactoBody">
+    
+<h1 class="contactoTitulo">Contactanos y Decinos tu opinion</h1>
+
+<form action="enviar.php" method="get">
+   <div class="">
+       <label class="nombreContacto" for="nombre">Nombre</label>
+       <input type="nombre" id="nombre" placeholder="Ingrese su nombre">
+   </div>
+   <br>
+   <div>
+    <label class="emailContacto" for="email">E-Mail</label>
+    <input type="email" id="E-Mail" placeholder="">
+   </div>
+
+   <br>
+   <div>
+       <label class="cajaContacto" for="caja">Dejanos tu consulta o comentario</label>
+       <textarea name="caja" id="caja" cols="70" rows="5" placeholder="Agradecemos sus opiniones"></textarea>
+   </div>
+   <br>
+
+   <div>
+      <label class="tipoContacto" for="tipo de comentario">Tipo de comentario: </label>
+      <select name="tipo de comentario" id="tipo de comentario">
+         <option value="00" disabled>Seleccione una opcion</option>
+         <option value="01">Consulta</option>
+         <option value="02">Inconveniente</option>
+         <option value="03">Critica</option>
+      </select>
+   </div>
+<br>
+<div>
+    <input type="submit" value="Enviar">
+</div>
+<hr>
+<footer>
+  <img src="./img/logos/logo_size_invert.jpg" alt="icono" width="200"> <h1></h1>
+</footer>
